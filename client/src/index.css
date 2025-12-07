@@ -131,7 +131,7 @@ body {
 }
 
 .submit-btn:hover {
-  background-color: #c11119;
+  background-color: #0082b3;
 }
 
 .submit-btn:disabled {
@@ -303,6 +303,14 @@ body {
   background-color: #c11119;
 }
 
+.submit-btn:hover {
+  background-color: #c11119;
+}
+
+.get-started-btn:hover {
+  background-color: #c11119;
+}
+
 .hero-content {
   color: #fff;
   text-align: center;
@@ -384,7 +392,7 @@ body {
 }
 
 .get-started-btn:hover {
-  background-color: #c11119;
+  background-color: #0082b3;
 }
 
 .curve-arrow {
