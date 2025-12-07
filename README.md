@@ -38,45 +38,5 @@ Use the following credentials to access the secure dashboard:
 *   **Frontend**: React (Vite), React Router v6
 *   **Backend**: Node.js, Express.js
 *   **Styling**: Vanilla CSS3 (Custom Design System)
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-\`\`\`bash
-git clone https://github.com/Lokistark/Movie-LoginPage.git
-cd Movie-LoginPage
-\`\`\`
-
-### 2. Install Dependencies
-
-You need to install dependencies for both the client (frontend) and server (backend).
-
-**Frontend:**
-\`\`\`bash
-cd client
-npm install
-\`\`\`
-
-**Backend:**
-\`\`\`bash
-cd server
-npm install
-\`\`\`
-
-### 3. Run the Application
-
-You need to run both the backend server and frontend client simultaneously.
-
-**Start the Backend (Port 5000):**
-\`\`\`bash
-# In the /server directory
-npm start
-\`\`\`
-
-**Start the Frontend (Port 5173):**
-\`\`\`bash
-# In the /client directory
-npm run dev
-\`\`\`
-
+*   
 The application will launch at \`http://localhost:5173\`.
