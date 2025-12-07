@@ -65,18 +65,41 @@ npm install
 
 ### 3. Run the Application
 
-You need to run both the backend server and frontend client simultaneously.
+You need to run both the backend server and frontend client **simultaneously in separate terminals**.
 
-**Start the Backend (Port 5000):**
+**Terminal 1 - Start the Backend Server (Port 5000):**
 ```bash
-# In the /server directory
+cd server
 npm start
 ```
+✅ Server will run at: `http://localhost:5000`
 
-**Start the Frontend (Port 5173):**
+**Terminal 2 - Start the Frontend Client (Port 5173):**
 ```bash
-# In the /client directory
+cd client
 npm run dev
 ```
+✅ Frontend will run at: `http://localhost:5173`
 
-The application will launch at `http://localhost:5173`.
+### 4. Access the Application
+
+Once both servers are running, open your browser and navigate to:
+
+🌐 **Local Development URL:** [`http://localhost:5173`](http://localhost:5173)
+
+**Note:** Make sure both the backend (port 5000) and frontend (port 5173) are running simultaneously for the login functionality to work properly.
+
+### 🔧 Troubleshooting
+
+**Issue: Port already in use**
+- If port 5173 is busy, Vite will automatically use the next available port (5174, 5175, etc.)
+- Check the terminal output for the actual port number
+
+**Issue: Login not working**
+- Ensure the backend server is running on port 5000
+- Check that `http://localhost:5000` is accessible
+- Verify both terminals are active
+
+**Issue: "Cannot connect to server"**
+- Restart the backend server: `cd server && npm start`
+- Check if port 5000 is available
