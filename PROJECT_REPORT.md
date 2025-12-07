@@ -66,7 +66,7 @@ A full-stack web application with Netflix-inspired UI featuring user authenticat
 ## Deployment
 
 **Live URLs:**
-- Vercel: https://movie-loginpage.vercel.app/
+- Vercel: https://netflix-loginpage-eta.vercel.app/
 - GitHub Pages: https://lokistark.github.io/Netflix-LoginPage/
 
 **Local Development:**
@@ -114,7 +114,7 @@ Access at: http://localhost:5173
 ## Links
 
 **GitHub:** https://github.com/Lokistark/Netflix-LoginPage  
-**Live Demo:** https://movie-loginpage.vercel.app/
+**Live Demo:** https://netflix-loginpage-eta.vercel.app/
 
 ---
 
