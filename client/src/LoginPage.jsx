@@ -59,7 +59,7 @@ const LoginPage = () => {
         <div className="login-wrapper">
             <div className="login-overlay">
                 <header className="header">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" className="logo" />
+                    <div className="logo" style={{ fontSize: '32px', fontWeight: 'bold', color: '#e50914', letterSpacing: '2px' }}>MOVIEAPP</div>
                 </header>
 
                 <div className="login-container">
@@ -112,7 +112,7 @@ const LoginPage = () => {
                     </form>
 
                     <div className="signup-now">
-                        New to Netflix? <span style={{ color: '#fff' }}>Sign up now.</span>
+                        New to MovieApp? <span style={{ color: '#fff' }}>Sign up now.</span>
                         <div style={{ fontSize: '13px', marginTop: '10px', color: '#8c8c8c' }}>
                             This page is protected by Google reCAPTCHA to ensure you're not a bot.
                             <span style={{ color: '#0071eb', cursor: 'pointer' }}> Learn more.</span>

@@ -80,4 +80,3 @@ npm run dev
 ```
 
 The application will launch at `http://localhost:5173`.
-n

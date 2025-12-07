@@ -18,19 +18,16 @@ const MOCK_USER = {
 // Routes
 app.post('/api/login', (req, res) => {
     console.log("Login attempt received:", req.body);
-    const email = req.body.email ? req.body.email.trim() : '';
+    const email = req.body.email ? req.body.email.trim().toLowerCase() : '';
     const password = req.body.password ? req.body.password.trim() : '';
-
+    console.log('Login attempt:', { email, password });
     // Simple validation
     if (!email || !password) {
         return res.status(400).json({ message: "Email and password are required." });
     }
-
-    // Authentication check
-    // Logic: 
-    // 1. Matches the hardcoded 'test@netflix.com' with 'password123'
-    // 2. OR matches 'loki@gmail.com' with 'loki123'
-    const isValidUser = (email === MOCK_USER.email && password === MOCK_USER.password) ||
+    // Authentication check (case-insensitive for mock user)
+    const mockEmail = MOCK_USER.email.toLowerCase();
+    const isValidUser = (email === mockEmail && password === MOCK_USER.password) ||
         (email === 'loki@gmail.com' && password === 'loki123');
 
     if (isValidUser) {
