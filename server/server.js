@@ -41,6 +41,7 @@ app.post('/api/login', (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Also accessible at http://10.161.104.138:${PORT}`);
 });

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { API_URL } from './config';
 
 const LoginPage = () => {
     const [formData, setFormData] = useState({
@@ -41,7 +42,7 @@ const LoginPage = () => {
                 email: formData.email.trim(),
                 password: formData.password.trim()
             };
-            const response = await axios.post('http://localhost:5000/api/login', payload);
+            const response = await axios.post(`${API_URL}/api/login`, payload);
             if (response.status === 200) {
                 setTimeout(() => {
                     navigate('/dashboard', { state: { user: response.data.user } });
@@ -59,7 +60,7 @@ const LoginPage = () => {
         <div className="login-wrapper">
             <div className="login-overlay">
                 <header className="header">
-                    <div className="logo" style={{ fontSize: '32px', fontWeight: 'bold', color: '#e50914', letterSpacing: '2px' }}>MOVIEAPP</div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" className="logo" />
                 </header>
 
                 <div className="login-container">
@@ -112,7 +113,7 @@ const LoginPage = () => {
                     </form>
 
                     <div className="signup-now">
-                        New to MovieApp? <span style={{ color: '#fff' }}>Sign up now.</span>
+                        New to Netflix? <span style={{ color: '#fff' }}>Sign up now.</span>
                         <div style={{ fontSize: '13px', marginTop: '10px', color: '#8c8c8c' }}>
                             This page is protected by Google reCAPTCHA to ensure you're not a bot.
                             <span style={{ color: '#0071eb', cursor: 'pointer' }}> Learn more.</span>

@@ -19,7 +19,7 @@ const LandingPage = () => {
         <div className="login-wrapper">
             <div className="login-overlay">
                 <header className="header">
-                    <div className="logo" style={{ fontSize: '32px', fontWeight: 'bold', color: '#e50914', letterSpacing: '2px' }}>MOVIEAPP</div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" className="logo" />
 
                     <div className="landing-header-actions">
                         <div className="lang-selection-container" style={{ marginTop: 0 }}>
