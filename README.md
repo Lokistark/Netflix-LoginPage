@@ -2,18 +2,36 @@
 
 A pixel-perfect responsive replica of the Netflix login and landing interface. This full-stack web application features a polished **React** frontend and a dedicated **Express** backend for handling authentication logic. Designed to mimic the premium aesthetic of the original platform.
 
+## 📸 Interface Preview
+
+![Netflix Interface](./netflix_login_local.png)
+
+## 🌐 Live Demo
+
+**Experience the app live on Vercel:**
+👉 **[View Live Demo](https://movie-loginpage.vercel.app/)** *(Replace with your specific Vercel URL)*
+
 ## ✨ Features
 
 *   **Responsive UI**: Fully responsive design that looks accurate on mobile, tablet, and desktop.
 *   **Authentication Flow**:
     *   Functional login form with credential validation.
     *   Express.js backend API handling sign-in requests.
-    *   Mock authentication (Login: `test@netflix.com` / `password123` or `loki@gmail.com` / `loki123`).
+    *   **Secure Dashboard**: Accessible only after successful authentication.
 *   **Modern Styling**:
     *   Custom CSS implementation (no external UI libraries).
     *   Floating input labels.
-    *   Iconic Netflix red/black color scheme and typography.
-*   **Dashboard**: Secured area accessible only after successful login.
+    *   Authentic Netflix red/black color scheme and typography.
+*   **Sign Out Functionality**: Complete session lifecycle management.
+
+## 🔐 Credentials for Testing
+
+Use the following credentials to access the secure dashboard:
+
+| Role | Email | Password |
+| :--- | :--- | :--- |
+| **User** | `loki@gmail.com` | `loki123` |
+| **Test** | `test@netflix.com` | `password123` |
 
 ## 🛠️ Tech Stack
 
@@ -25,8 +43,8 @@ A pixel-perfect responsive replica of the Netflix login and landing interface. T
 
 ### 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/Lokistark/Netflix-LoginPage.git
-cd Netflix-LoginPage
+git clone https://github.com/Lokistark/Movie-LoginPage.git
+cd Movie-LoginPage
 \`\`\`
 
 ### 2. Install Dependencies
