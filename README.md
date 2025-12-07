@@ -9,7 +9,7 @@ A pixel-perfect responsive replica of the Netflix login and landing interface. T
 ## 🌐 Live Demo
 
 **Experience the app live on Vercel:**
-👉 **[View Live Demo](https://movie-loginpage.vercel.app/)** *(Replace with your specific Vercel URL)*
+👉 **[View Live Demo](https://netflix-loginpage-eta.vercel.app/)** *(Replace with your specific Vercel URL)*
 
 ## ✨ Features
 
@@ -43,7 +43,7 @@ Use the following credentials to access the secure dashboard:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Lokistark/Movie-LoginPage.git
+git clone https://github.com/Lokistark/Netflix-LoginPage.git
 cd Movie-LoginPage
 ```
 
