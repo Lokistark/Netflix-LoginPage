@@ -4,7 +4,7 @@ A pixel-perfect responsive replica of the Netflix login and landing interface. T
 
 ## 📸 Interface Preview
 
-![Netflix Interface](./netflix_login_local.png)
+![Netflix Interface](https://github.com/Lokistark/Netflix-LoginPage/blob/main/Screenshot%202025-12-07%20134132.png)
 
 ## 🌐 Live Demo
 
@@ -79,5 +79,4 @@ npm start
 npm run dev
 ```
 
-The application will launch at `http://localhost:5173`.
-n
+The application will launch at `http://localhost:5173`
