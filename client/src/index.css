@@ -113,6 +113,13 @@ body {
   transform: translateY(0);
 }
 
+.disclaimer {
+  margin: 16px 0;
+  text-align: center;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
 .error-msg {
   color: #e87c03;
   font-size: 13px;

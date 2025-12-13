@@ -23,8 +23,8 @@ const LoginPage = () => {
     };
 
     const validate = () => {
-        if (!formData.email) return "Please enter a valid email or phone number.";
-        if (!formData.password) return "Your password must contain between 4 and 60 characters.";
+        if (!formData.email) return 'Please enter a valid email or phone number.';
+        if (!formData.password) return 'Your password must contain between 4 and 60 characters.';
         return null;
     };
 
@@ -61,7 +61,6 @@ const LoginPage = () => {
             <div className="login-overlay">
                 <header className="header">
                     <h1 className="logo-text">Netflicx</h1>
-
                 </header>
 
                 <div className="login-container">
@@ -121,6 +120,11 @@ const LoginPage = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Disclaimer between form and footer */}
+                <p className="disclaimer">
+                    Disclaimer: Educational Netflix UI Clone – Demo Only – Does NOT log in to Netflix.
+                </p>
 
                 {/* Footer Section - Outside the login container but inside the overlay wrapper */}
                 <div className="site-footer-wrapper">
